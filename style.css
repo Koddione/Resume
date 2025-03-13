@@ -263,7 +263,13 @@ button {
   color: rgb(235, 235, 235);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
-
+.btn-more-info {
+  border: none;
+  background: none;
+  font-size: 20px;
+  font-family: inherit;
+  color: rgb(41, 56, 70);
+}
 .contact-me button:hover {
   background-color: rgb(187, 187, 187);
   color: black;
