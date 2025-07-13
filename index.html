@@ -6,6 +6,7 @@
     <meta name="keywords" content="resume, portfolio, koddione, cv" />
     <meta name="description" content="Сайт резюме Ткачёва Ивана" />
     <link rel="stylesheet" href="style.css" />
+    <script src="./scripts.js" defer></script>
     <title>Резюме</title>
   </head>
   <body>
@@ -36,16 +37,16 @@
           </div>
         </div>
 
-        <div class="stack-technology">
+        <div class="area stack-technology">
           <h2>Основной стек технологий:</h2>
           <ul>
-            <li>HTML, CSS, JavaScript, TypeScript</li>
+            <li>HTML, CSS(scss, styled-component), JavaScript, TypeScript</li> 
             <li>
               React
               <em> (Redux, React Hook Form, Yup, Routes и другое )</em>
             </li>
             <li>SQL <em>(PostgreSQL, MySQL)</em></li>
-            <li>Git</li>
+            <li>Git <em>(Git Flow,branching, merging, resolving conflicts, pull requests, working with GitHub)</em></li>
           </ul>
           <h3>Помимо этого имею базовое понимание языков:</h3>
           <ul>
@@ -55,6 +56,80 @@
             <li>Java</li>
           </ul>
         </div>
+        <div class="area expensive">
+          <h2>Опыт работы:</h2>
+          <ul>
+            <li>
+              <div class="toggle-header">
+                <strong>Верстальщик (Freelance)</strong> <em>2023 — 2024</em> <span class="icon">➕</span>
+              </div>
+              <div class="toggle-content">
+                <ul>
+                  <li>Стек: Figma → HTML/CSS + JS</li>
+                  <li>- Верстал лендинги по макетам</li>
+                  <li>- Подключал базовую интерактивность через JavaScript</li>
+                  <li>- Адаптировал под разные экраны</li>
+                  <li>- Улучшал производительность и визуальное качество</li>
+                </ul>
+              </div>
+            </li>
+
+            <li>
+              <div class="toggle-header">
+                <strong>Курс по React от Result University</strong> <em>2024 — 2025</em> <span class="icon">➕</span>
+              </div>
+              <div class="toggle-content">
+                <ul>
+                  <li>Стек: React, а также разные фреймворки</li>
+                  <li>- Работа с Git (CLI и GitHub)</li>
+                  <li>- Проекты с использованием React, Hooks, REST API</li>
+                  <li>- State management. Redux</li>
+                  <li>- Изучение маршрутизации и context API</li>
+                  <li>- Изучение TypeScript и улучшение архитектуры кода</li>
+                </ul>
+              </div>
+            </li>
+
+            <li>
+              <div class="toggle-header">
+                <strong>Курс по JavaScript от Modsen</strong> <em>2025</em> <span class="icon">➕</span>
+              </div>
+              <div class="toggle-content">
+                <ul>
+                  <li>Стек: Vanilla JS, ES6+, DOM, Events</li>
+                  <li>- Манипуляции с DOM, работа с событиями</li>
+                  <li>- Работа с асинхронностью: callbacks, promises, async/await</li>
+                  <li>- Работа с формами, валидация, localStorage</li>
+                  <li>- Написание UI-логики без библиотек</li>
+                  <li>- Практика через pet-проекты: ToDo-листы, калькуляторы, SPA</li>
+                </ul>
+              </div>
+            </li>
+
+            <li>
+              <div class="toggle-header">
+                <strong>Стажировка от Modsen</strong> <em>2025</em> <span class="icon">➕</span>
+              </div>
+              <div class="toggle-content">
+                <ul>
+                  <li>Стажировка в командной среде с упором на реальную разработку</li>
+                  <li>- Работа в SCRUM-команде: ежедневные дейли, code review, task breakdown</li>
+                  <li>- Изучение и применение большого объёма теории (чистый JS, TS, React)</li>
+                  <li>- Глубокая практика с JavaScript (ES6+), DOM API, Event Loop, Web APIs</li>
+                  <li>- Проекты с использованием React (Hooks, Router, оптимизация ререндеров)</li>
+                  <li>- Переход от JS к TypeScript: типизация компонентов, props, context</li>
+                  <li>- Работа с REST API, Axios, fetch, асинхронная логика</li>
+                  <li>- Управление состоянием: useReducer, Context API, Redux</li>
+                  <li>- Чистая архитектура: деление на модули, reusable компоненты, best practices</li>
+                  <li>- Разработка собственных pet-проектов и командных mini-apps</li>
+                  <li>- Использование Git в команде: Git Flow, feature branches, pull requests</li>
+                  <li>- Регулярный фидбэк от наставников, улучшение качества кода</li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+
 
         <div class="social-network">
           <h2>Мои социальные сети:</h2>
@@ -74,27 +149,5 @@
           >
         </div>
       </div>
-
-      <!-- <div class="contact-me">
-        <h3>Связь со мной</h3>
-        <form>
-          <div class="your-contact-info">
-            <div class="your-name">
-              <input type="text" placeholder="Ваше имя" id="inputName" />
-            </div>
-            <div class="your-email">
-              <input type="email" placeholder="Ваш email" id="inputEmail" />
-            </div>
-          </div>
-          <div class="your-message">
-            <textarea
-              placeholder="Введите сообщение..."
-              id="inputMessage"
-            ></textarea>
-          </div>
-          <button id="sendMessage" class="btn">Отправить</button>
-        </form>
-      </div>
-    </div> -->
   </body>
 </html>

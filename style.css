@@ -21,52 +21,77 @@ body {
   box-sizing: border-box;
 }
 
-.stack-technology {
-  background-color: #d6dcff;
+.area {
   padding: 2px 0 2px 15px;
   margin: 0 20px;
   border-radius: 30px;
-  color: rgb(41, 56, 70);
   transition: transform 0.3s ease;
   overflow: hidden;
   margin-bottom: 40px;
 }
+.stack-technology {
+  background-color: #d6dcff;
+  color: rgb(41, 56, 70);
+}
 
-.stack-technology:hover {
+.area:hover {
   transform: scale(1.03);
 }
 
-.stack-technology h2,
-.stack-technology h3 {
+.area h2,
+.area h3 {
   margin: 10px 0;
 }
 
-.stack-technology ul {
+.area ul {
   margin: 0;
   padding: 0;
   margin-bottom: 15px;
   list-style: none;
 }
 
-.stack-technology ul li {
+.area ul li {
   margin: 0;
   padding: 0 0 10px 10px;
 }
 
-.stack-technology ul li:hover {
-  background-color: #c1c9fa;
+.area ul li:hover {
   border-radius: 10px;
 }
-
-.stack-technology ul li:last-child {
+.stack-technology ul li:hover {
+  background-color: #c1c9fa;
+}
+.area ul li:last-child {
   padding-bottom: 0;
 }
 
+.expensive {
+  background-color: #f0a7da;
+  color: rgb(27, 19, 21);
+}
+.icon {
+  color: red;
+}
 .info-text p {
   color: #444444;
   padding-left: 5px;
 }
+.toggle-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
 
+.toggle-content.open {
+  max-height: 1000px;
+}
+.toggle-header {
+  cursor: pointer;
+  user-select: none;
+}
+.toggle-header span {
+  text-align: end;
+}
 .avatar {
   box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.514);
   border-radius: 15px;
@@ -316,10 +341,10 @@ button {
   .contact-me form .btn {
     font-size: 17px;
   }
-  .stack-technology h2 {
+  .area h2 {
     font-size: 22px;
   }
-  .stack-technology h3 {
+  .area h3 {
     font-size: 18px;
   }
 }
